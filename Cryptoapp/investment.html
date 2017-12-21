@@ -2,8 +2,7 @@
 <html>
     <head>
         <title>Cryptoapp</title>
-        <link rel="stylesheet" type="text/css" href="style.css"/>
-        
+        <link rel="stylesheet" type="text/css" href="CSS/MainCSS/style.css"/>
     </head>
     <body>
         <h3>Cryptoapp</h3>
@@ -16,20 +15,19 @@
             <input type="text" placeholder="Search...">
         </div>
         <div id="slidecontainer">
-  <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
-  <p>Value: <span id="demo"></span></p>
-</div>
-
-<script>
-var slider = document.getElementById("myRange");
-var output = document.getElementById("demo");
-output.innerHTML = slider.value;
-
-slider.oninput = function() {
-  output.innerHTML = this.value;
-}
-</script>
+        <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+        <p>Value: <span id="demo"></span></p>
         <p>investment slider eth</p>
         <p>investment slider litecoin</p>
+
+        </div>
+</div>
+
+<div class="btcwdgt-price"></div>
+
+<script src="JS/InvestJS/Slider.js"></script>
+<script src="JS/InvestJS/BitWidgets.js"></script>
+
     </body>
+
 </html>
