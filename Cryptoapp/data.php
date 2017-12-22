@@ -28,7 +28,7 @@
       $percentChange = $indicator.number_format($percent, 2);
       $color = "red";
   }
-$table = <<<EOT
+$table = <<<HTML
   <table width="100%">
     <tr>
       <td rowspan="3" width="60%" id="lastPrice">$$price</td>
@@ -44,6 +44,6 @@ $table = <<<EOT
       <td colspan="2" align="right" id="timeDate">$date</td>
     </tr>
   </table>
-EOT;
+HTML;
 echo $table;
 ?>
