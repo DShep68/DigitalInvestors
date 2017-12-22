@@ -57,7 +57,7 @@ h3 {
     }
 }
 .column {
-    float: left;
+    float: right;
     width: 50%;
 }
 
@@ -106,17 +106,29 @@ div {
     background: #4CAF50; /* Green background */
     cursor: pointer; /* Cursor on hover */
 }
- .column {
-    float: right;
-    width: 50%;
-    padding: 10px;
-    height: 300px;
 }
 
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
+.column {
+    float: left;
+    width: 50%;
 }
+
+p {
+    font-size: 18px;
+    letter-spacing: inherit;
+    text-indent: 40px;
+}
+
+h4 {
+    font-size: 20px;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+}
+
+title {
+    font-size: 26px;
 }
