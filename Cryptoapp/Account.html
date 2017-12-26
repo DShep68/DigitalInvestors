@@ -3,6 +3,7 @@
     <head>
         <title>Cryptoapp</title>
         <link rel="stylesheet" type="text/css" href="CSS/MainCSS/style.css"/>
+        <script src="JS/accountpage/tabs.js"></script>
     </head>
     <body>
         <h3>Cryptoapp</h3>
@@ -14,6 +15,22 @@
           <a href="about.html">About</a>
             <input type="text" placeholder="Search...">
         </div>
+         <!-- Tab links -->
+        <div class="tab">
+          <button class="tablinks" onclick="openCity(event, 'account')">Account</button>
+          <button class="tablinks" onclick="openCity(event, 'investment')">Investments</button>
+        </div>
         
+        <!-- Tab content -->
+        <div id="account" class="tabcontent">
+          <h3>Account</h3>
+          <p>Total money and maybe some graphs growths of money</p>
+        </div>
+
+        <div id="investment" class="tabcontent">
+          <h3>Investment</h3>
+          <p>List all current investments (% and amount for each investment)</p>
+        </div>
+
     </body>
 </html>
